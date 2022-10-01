@@ -7,6 +7,7 @@ import copy from "./assets/copy.svg";
 import rocket from "./assets/rocket.svg";
 import code from "./assets/code.svg";
 import bug from "./assets/bug.svg";
+import lifecycle from "./assets/lifecycle.png";
 
 function App() {
   const copyCommand = () => {
@@ -56,6 +57,12 @@ function App() {
             alt="Copy to clipboard"
           />
         </div>
+      </div>
+      <div className="flex justify-center pt-[3rem] flex-col text-center">
+        <h1 className="text-[1.8rem] font-bold dark:text-white">Core System</h1>
+        <p className="sm:w-[45rem] dark:text-white text-[1.1rem] px-[1rem] pt-[2rem]">
+          <img src={lifecycle} alt="" className="dark:invert" />
+        </p>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center">
         <h1 className="text-[1.8rem] font-bold dark:text-white">
