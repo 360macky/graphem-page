@@ -40,7 +40,7 @@ function App() {
       </div>
       <div className="flex justify-center pt-[2rem]">
         <div
-          className="flex transition bg-[#6d6d6d] dark:bg-[#424242] active:bg-gradient-to-r active:from-[#5079F7] active:to-[#E535AB] rounded-full py-[0.5rem] items-center px-[2rem] cursor-pointer"
+          className="flex transition dark:border-[white] dark:bg-[#424242] bg-gradient-to-r from-[#5079F7] to-[#E535AB] rounded-full py-[0.5rem] items-center px-[2rem] cursor-pointer active:scale-110"
           onClick={copyCommand}
           tabIndex={0}
           title="Copy to clipboard"
@@ -74,6 +74,20 @@ function App() {
           like. Pull requests are warmly welcome.
         </p>
       </div>
+      <div className="flex justify-center pt-[3rem] flex-col text-center">
+        <h1 className="text-[1.8rem] font-bold dark:text-white">License</h1>
+        <p className="sm:w-[30rem] dark:text-white text-[1.1rem] px-[1rem]">
+          Distributed under the Apache 2.0 License. See{" "}
+          <a
+            href="https://github.com/360macky/graphem/blob/main/LICENSE"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            LICENSE
+          </a>{" "}
+          for more information.
+        </p>
+      </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center gap-y-[1rem] mb-[2rem]">
         <h1 className="text-[1.8rem] font-bold dark:text-white">
           Useful resources
@@ -95,7 +109,7 @@ function App() {
               </h2>
             </div>
           </a>
-          <a href="https://github.com/360macky/graphem">
+          <a href="https://github.com/360macky/graphem/issues">
             <div className="flex items-center">
               <img src={bug} className="dark:invert" alt="" />{" "}
               <h2 className="pl-[0.5rem] text-[1.2rem] dark:text-white">
