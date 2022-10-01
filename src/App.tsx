@@ -22,7 +22,7 @@ function App() {
         <div className="flex w-full justify-center">
           <img
             src={logoname}
-            className="max-h-[5rem]"
+            className="max-h-[5.4rem]"
             alt="Graphem"
             title="Graphem"
           />
@@ -40,7 +40,7 @@ function App() {
       </div>
       <div className="flex justify-center pt-[2rem]">
         <div
-          className="flex transition dark:border-[white] dark:bg-[#424242] bg-gradient-to-r from-[#5079F7] to-[#E535AB] rounded-full py-[0.5rem] items-center px-[2rem] cursor-pointer active:scale-110"
+          className="flex transition dark:border-[white] dark:bg-[#424242] bg-gradient-to-r from-[#5079F7] to-[#E535AB] hover:ring rounded-full py-[0.5rem] items-center px-[2rem] cursor-pointer active:scale-110"
           onClick={copyCommand}
           tabIndex={0}
           title="Copy to clipboard"
@@ -59,13 +59,15 @@ function App() {
         </div>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center">
-        <h1 className="text-[1.8rem] font-bold dark:text-white">Core System</h1>
+        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#5079F7] pb-[0.5rem]">
+          Core System
+        </h1>
         <p className="sm:w-[45rem] dark:text-white text-[1.1rem] px-[1rem] pt-[2rem]">
           <img src={lifecycle} alt="" className="dark:invert" />
         </p>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center">
-        <h1 className="text-[1.8rem] font-bold dark:text-white">
+        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#5079F7] pb-[0.5rem]">
           Contributions
         </h1>
         <p className="sm:w-[30rem] dark:text-white text-[1.1rem] px-[1rem]">
@@ -75,7 +77,9 @@ function App() {
         </p>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center">
-        <h1 className="text-[1.8rem] font-bold dark:text-white">License</h1>
+        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#5079F7] pb-[0.5rem]">
+          License
+        </h1>
         <p className="sm:w-[30rem] dark:text-white text-[1.1rem] px-[1rem]">
           Distributed under the Apache 2.0 License. See{" "}
           <a
@@ -89,7 +93,7 @@ function App() {
         </p>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center gap-y-[1rem] mb-[2rem]">
-        <h1 className="text-[1.8rem] font-bold dark:text-white">
+        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#5079F7] pb-[0.5rem]">
           Useful resources
         </h1>
         <div className="flex flex-col gap-y-[1rem] sm:flex-row sm:gap-x-[2rem]">
