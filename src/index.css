@@ -6,3 +6,22 @@
   margin: 0;
   padding: 0;
 }
+
+.graphem-particles {
+  animation-name: spin;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease; 
+}
+
+@keyframes spin {
+  0% {
+      transform:rotate(0deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  100% {
+      transform:rotate(360deg);
+  }
+}

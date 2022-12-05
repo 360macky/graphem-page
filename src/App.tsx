@@ -17,7 +17,7 @@ function App() {
     <div className="flex flex-col items-center w-full dark:bg-[#1b1b1b]">
       <div className="flex flex-col w-full pt-[1rem] sm:pt-[2.5rem]">
         <div className="flex w-full p-[1rem] justify-center">
-          <img src={logotype} className="max-h-[6.8rem]" alt="Graphem logo" />
+          <img src={logotype} className="max-h-[6.8rem] graphem-particles" alt="Graphem logo" />
         </div>
         <div className="flex w-full justify-center">
           <img
@@ -97,19 +97,27 @@ function App() {
           Useful resources
         </h1>
         <div className="flex flex-col gap-y-[1rem] sm:flex-row sm:gap-x-[2rem]">
+          <a href="https://github.com/360macky/graphem">
+            <div className="flex items-center">
+              <img src={code} className="dark:invert" alt="" />{" "}
+              <h2 className="pl-[0.5rem] text-[1.2rem] dark:text-white">
+                Repository
+              </h2>
+            </div>
+          </a>
+          <a href="https://github.com/360macky/graphem/graphs/contributors">
+            <div className="flex items-center">
+              <img src={code} className="dark:invert" alt="" />{" "}
+              <h2 className="pl-[0.5rem] text-[1.2rem] dark:text-white">
+                Contributors
+              </h2>
+            </div>
+          </a>
           <a href="https://github.com/nasa/openmct">
             <div className="flex items-center">
               <img src={rocket} className="dark:invert" alt="" />{" "}
               <h2 className="pl-[0.5rem] text-[1.2rem] dark:text-white">
                 NASA Open MCT
-              </h2>
-            </div>
-          </a>
-          <a href="https://github.com/360macky/graphem">
-            <div className="flex items-center">
-              <img src={code} className="dark:invert" alt="" />{" "}
-              <h2 className="pl-[0.5rem] text-[1.2rem] dark:text-white">
-                Source code
               </h2>
             </div>
           </a>
