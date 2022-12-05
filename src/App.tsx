@@ -9,6 +9,7 @@ import code from "./assets/code.svg";
 import bug from "./assets/bug.svg";
 import link from "./assets/link.svg";
 import lifecycle from "./assets/lifecycle.png";
+import hero from "./assets/hero.png";
 
 function App() {
   const copyCommand = () => {
@@ -16,7 +17,7 @@ function App() {
   };
   return (
     <div className="flex flex-col items-center w-full dark:bg-[#1b1b1b]">
-      <div className="flex flex-col w-full pt-[1rem] sm:pt-[4.5rem]">
+      <div className="flex flex-col w-full pt-[1rem] sm:pt-[2.5rem]">
         <div className="flex w-full p-[1rem] justify-center">
           <img
             src={logotype}
@@ -113,6 +114,11 @@ function App() {
           </div>
         </a>
       </div>
+      <div className="sm:flex justify-center pt-[3rem] flex-col text-center hidden">
+        <p className="sm:w-[44rem] dark:text-white text-[1.1rem] px-[1rem]">
+          <img src={hero} alt="" />
+        </p>
+      </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center">
         <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#E535AB] pb-[0.5rem]">
           Core System
@@ -149,7 +155,7 @@ function App() {
         </p>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center gap-y-[1rem] mt-[2rem] pb-[3rem] bg-gray-100 dark:bg-[black] w-full">
-        <div className="flex justify-center flex-col gap-y-[1rem] sm:flex-row sm:gap-x-[2rem]">
+        <div className="flex justify-center flex-col gap-y-[1rem] sm:flex-row sm:gap-x-[4rem]">
           <a href="https://github.com/360macky/graphem">
             <div className="flex items-center">
               <img src={code} className="dark:invert" alt="" />{" "}
