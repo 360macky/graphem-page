@@ -59,7 +59,7 @@ function App() {
         </div>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center">
-        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#5079F7] pb-[0.5rem]">
+        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#E535AB] pb-[0.5rem]">
           Core System
         </h1>
         <p className="sm:w-[45rem] dark:text-white text-[1.1rem] px-[1rem] pt-[2rem]">
@@ -67,7 +67,7 @@ function App() {
         </p>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center">
-        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#5079F7] pb-[0.5rem]">
+        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#E535AB] pb-[0.5rem]">
           Contributions
         </h1>
         <p className="sm:w-[30rem] dark:text-white text-[1.1rem] px-[1rem]">
@@ -77,7 +77,7 @@ function App() {
         </p>
       </div>
       <div className="flex justify-center pt-[3rem] flex-col text-center">
-        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#5079F7] pb-[0.5rem]">
+        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#E535AB] pb-[0.5rem]">
           License
         </h1>
         <p className="sm:w-[30rem] dark:text-white text-[1.1rem] px-[1rem]">
@@ -92,11 +92,8 @@ function App() {
           for more information.
         </p>
       </div>
-      <div className="flex justify-center pt-[3rem] flex-col text-center gap-y-[1rem] mb-[2rem]">
-        <h1 className="text-[1.8rem] font-bold dark:text-white underline underline-offset-4 decoration-[#5079F7] pb-[0.5rem]">
-          Useful resources
-        </h1>
-        <div className="flex flex-col gap-y-[1rem] sm:flex-row sm:gap-x-[2rem]">
+      <div className="flex justify-center pt-[3rem] flex-col text-center gap-y-[1rem] mt-[2rem] pb-[2rem] bg-gray-100 w-full">
+        <div className="flex justify-center flex-col gap-y-[1rem] sm:flex-row sm:gap-x-[2rem]">
           <a href="https://github.com/360macky/graphem">
             <div className="flex items-center">
               <img src={code} className="dark:invert" alt="" />{" "}
